@@ -46,7 +46,7 @@ end
 group :test do
   # automatically include factories from spec/factories
   gem 'test-prof'
-  gem 'factory_bot_rails'
+  gem 'factory_bot_rails', '>= 6.5.1'
   # Make rspec output shorter and more useful
   gem 'fivemat'
   # rspec formatter for acceptance tests
